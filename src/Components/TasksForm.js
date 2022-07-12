@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/TasksForm.css";
 
 function TasksForm(props) {
     return (
