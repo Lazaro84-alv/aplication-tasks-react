@@ -2,9 +2,9 @@ import React from "react";
 import "../styles/Tasks.css";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
-function Tasks({ text }) {
+function Tasks({ text, completed }) {
     return (
-        <div className="tasks-container">
+        <div className={completed ? "tasks-container completed" : "tasks-container"}>
             <div className="tasks-text">
                 {text}
             </div>
