@@ -11,7 +11,9 @@ function App() {
           alt="Logo da Kemetec" 
         />
       </div>
-      
+      <div className="main-task-list">
+        <h1>My Tasks</h1>
+      </div>
     </div>
   );
 }
