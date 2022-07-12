@@ -12,6 +12,18 @@
   cursor: pointer;
 }
 
+.tasks-container:nth-child(3n + 1) {
+  background-color: #E0B000;
+}
+
+.tasks-container:nth-child(3n + 2) {
+  background-color: #CCCC99;
+}
+
+.tasks-container:nth-child(3n + 3) {
+  background-color: #FFF5E3;
+}
+
 .tasks-text {
   width: 100%;
   height: 100%;
