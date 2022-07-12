@@ -1,6 +1,6 @@
 import './App.css';
 import kemetecLogo from "./images/kemetec-logo.png";
-import Tasks from "../src/components/Tasks";
+import TasksForm from '../src/components/TasksForm';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       </div>
       <div className="main-task-list">
         <h1>My Tasks</h1>
-        <Tasks text="Learn React" />
+        <TasksForm />
       </div>
     </div>
   );
