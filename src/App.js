@@ -1,6 +1,6 @@
 import './App.css';
 import kemetecLogo from "./images/kemetec-logo.png";
-import TasksForm from '../src/components/TasksForm';
+import TasksList from './components/TasksList';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       </div>
       <div className="main-task-list">
         <h1>My Tasks</h1>
-        <TasksForm />
+        <TasksList />
       </div>
     </div>
   );
